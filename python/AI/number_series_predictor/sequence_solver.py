@@ -27,6 +27,13 @@ class sequence_solver:
         At first this problem was approached with AI. 
         However, this would require a very large dataset to train the model,
         consisting of close to all possible sequences.
+        
+        -> break early if easy sequence
+        
+        turns out AI not precise enough
+        
+        -> use math to solve
+        
         """
         self._parse_sequence(raw_input)
         return self.sequence_handler.interpret_sequence(self.sequence)
@@ -38,4 +45,4 @@ class sequence_solver:
     
     
  
-    
+    https://atozmath.com/example/NumberSeries.aspx?q=1&q1=E3
